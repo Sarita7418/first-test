@@ -1,0 +1,15 @@
+:root{
+    --Red: hsl(0, 100%, 50%);
+    --Blue: hsl(240, 100%, 50%);
+}
+
+*{
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Blue);
+    color: var(--Red);
+}
